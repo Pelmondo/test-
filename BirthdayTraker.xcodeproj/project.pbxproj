@@ -13,7 +13,6 @@
 		5650971221BBA13300F49879 /* BirthdayTraker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5650971021BBA13300F49879 /* BirthdayTraker.xcdatamodeld */; };
 		5650971421BBA13800F49879 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5650971321BBA13800F49879 /* Assets.xcassets */; };
 		5650971721BBA13800F49879 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5650971521BBA13800F49879 /* LaunchScreen.storyboard */; };
-		5650971F21BBADAB00F49879 /* Birthdays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5650971E21BBADAB00F49879 /* Birthdays.swift */; };
 		5650972121BBB5AB00F49879 /* BirthdaysTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5650972021BBB5AB00F49879 /* BirthdaysTableViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -26,7 +25,6 @@
 		5650971321BBA13800F49879 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5650971621BBA13800F49879 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5650971821BBA13800F49879 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5650971E21BBADAB00F49879 /* Birthdays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Birthdays.swift; sourceTree = "<group>"; };
 		5650972021BBB5AB00F49879 /* BirthdaysTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdaysTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,7 +60,6 @@
 			children = (
 				5650970921BBA13300F49879 /* AppDelegate.swift */,
 				5650970B21BBA13300F49879 /* AddBirthdayViewController.swift */,
-				5650971E21BBADAB00F49879 /* Birthdays.swift */,
 				5650970D21BBA13300F49879 /* Main.storyboard */,
 				5650972021BBB5AB00F49879 /* BirthdaysTableViewController.swift */,
 				5650971321BBA13800F49879 /* Assets.xcassets */,
@@ -145,7 +142,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5650972121BBB5AB00F49879 /* BirthdaysTableViewController.swift in Sources */,
-				5650971F21BBADAB00F49879 /* Birthdays.swift in Sources */,
 				5650970C21BBA13300F49879 /* AddBirthdayViewController.swift in Sources */,
 				5650971221BBA13300F49879 /* BirthdayTraker.xcdatamodeld in Sources */,
 				5650970A21BBA13300F49879 /* AppDelegate.swift in Sources */,
