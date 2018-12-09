@@ -121,7 +121,7 @@
                                 </date>
                             </datePicker>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="vK1-Vq-zKw" firstAttribute="trailing" secondItem="Knc-Xt-CHq" secondAttribute="trailing" id="1hZ-qg-izw"/>
                             <constraint firstItem="6aF-RQ-kj5" firstAttribute="top" secondItem="nlM-dc-1pf" secondAttribute="bottom" constant="10" id="4bm-2d-sEi"/>

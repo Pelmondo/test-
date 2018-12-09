@@ -26,6 +26,7 @@ class AddBirthdayViewController: UIViewController {
         birthDatePicker.maximumDate = Date()
     }
 
+    //   MARK: - Save button
 
     @IBAction func tapSaveButton(_ sender: UIBarButtonItem) {
        
@@ -50,7 +51,8 @@ class AddBirthdayViewController: UIViewController {
             content.body = message
             content.sound = UNNotificationSound.default
             var dateComponents = Calendar.current.dateComponents([.month, .day], from: birthdayDate)
-            dateComponents.hour = 8
+            dateComponents.hour = 11
+            dateComponents.minute = 50
             let trigger = UNCalendarNotificationTrigger(dateMatching:dateComponents, repeats: true)
             if let identifier = newBirthday.birthdayId {
                 let request = UNNotificationRequest(identifier: identifier,content: content, trigger: trigger)
@@ -65,9 +67,17 @@ class AddBirthdayViewController: UIViewController {
         
     }
     
+    // MARK: - Cancel button
     
     @IBAction func tapCancelButton(_ sender: UIBarButtonItem) {
-        dismiss(animated: true, completion: nil)
+        
+        let alert = UIAlertController.init(title: "Выйти?", message: "Внимание, ваши данные не будут сохранены. Вы уверены, что хотите выйти?", preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "Да", style: .cancel, handler: { (UIAlertAction) in
+            self.dismiss(animated: true, completion: nil)
+        }))
+        alert.addAction(UIAlertAction(title: "Отмена", style: .default, handler: { (UIAlertAction)in
+        }))
+        present(alert, animated: true)
     }
     
     
